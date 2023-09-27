@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Proiect</title>
+    <link href="4_1092_VASII_CARMEN_ANDREEA.css" rel="stylesheet" type="text/css" />
+    <script src="4_1092_VASII_CARMEN_ANDREEA.js"></script>
+
+</head>
+<body>
+    <h1>Editor fotografii - Vasii Carmen Andreea</h1>
+
+
+    <div class="header">
+        <input id="fileBrowser" type="file" accept="image/*">
+        <button id="download">Save as</button>
+        <button id="reset">Reset Canvas</button>
+    </div>
+
+
+    <div class="barastanga">
+        <canvas id="canv" width="450" height="310"></canvas>
+        <div class="butoanebara">
+            <label>Filters:</label><br />
+            <button id="originalPhoto">Original photo</button><br />
+            <button id="albnegru">Black and white</button><br />
+            <button id="vintage">Vintage</button><br />
+            <button id="cold">Inverted by red</button><br />
+            <button id="pink">Inverted by green</button><br />
+            <button id="inverted">Negative</button><br />
+            <label>Resize photo:</label><br />
+
+
+
+
+
+            <div id="resize">
+
+                <label id="rsw" for="reswidth">Set width or height(px): </label><br />
+                <input name="reswidth" id="reswidth" type="number" value="450" /><br />
+                <form action="">
+                    <input type="radio" name="dimensiuneNoua" id="latNoua"> Width
+                    <input type="radio" name="dimensiuneNoua" id="inaltNoua"> Height
+                </form>
+
+                <button name="rszz" id="rszz">Resize</button>
+               
+            </div>
+
+
+            <div id="selection">
+                <label id="sel">Selection: </label>
+                <button id="selc">Select a part of the picture</button><br />
+                <button id="delsel">Delete selection</button><br />
+                <button id="crop">Crop by selection</button><br />
+
+            </div>
+
+            <div id="text">
+                <label id="texts">Text settings:</label><br />
+                <label id="inserttext" for="inserttxt">Insert your text:</label><br />
+                <input name="inserttxt" id="inserttxt" value="AAA" /><br />
+                <label id="sizetext" for="sztxt">Set the size (px):</label><br />
+                <input name="sztxt" id="sztxt" type="number" value="50" /><br />
+                <label id="colortext" for="colortxt">Select the color:</label><br />
+                <input type="color" id="colortxt" value="#000000" />
+                <button id="addtxt">Add text</button><br />
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+   
+
+    
+
+
+</body>
+
+</html>

@@ -1,0 +1,240 @@
+﻿body {
+    background-color: #eaf6f6;
+}
+
+h1 {
+    text-align: center;
+    background-color: #66bfbf;
+    border-radius: 20px;
+    border: 10px solid #ffb5b5;
+    color:white;
+    font-family:'Courier New';
+    font-size:20px;
+    height:20px;
+}
+
+.header {
+    text-align: center;
+    padding: 10px;
+    height: 25px;
+    background-color: #bbe4e9;
+    border: 5px solid #66bfbf;
+    border-radius: 20px;
+    margin-bottom:20px;
+}
+
+.butoanebara {
+    border: 5px solid #66bfbf;
+    border-radius: 20px;
+    width: 15%;
+    background-color: #bbe4e9;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Courier New';
+    font-weight:bold;
+    font-size:20px;
+    color: #113f67;
+   
+    
+}
+
+#originalPhoto {
+    background-color: #fae3d9;
+    font-family: 'Courier New';
+    font-size:16px;
+    font-weight: bold;
+    color: #113f67;
+    border-color: #113f67;
+    margin-top:10px;
+    margin-bottom:5px;
+    cursor:pointer;
+}
+
+#albnegru {
+    background-color: #fae3d9;
+    font-family: 'Courier New';
+    font-weight: bold;
+    color: #113f67;
+    border-color: #113f67;
+    margin-bottom: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#vintage {
+    background-color: #fae3d9;
+    font-family: 'Courier New';
+    font-weight: bold;
+    color: #113f67;
+    border-color: #113f67;
+    margin-bottom: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#cold {
+    background-color: #fae3d9;
+    font-family: 'Courier New';
+    font-weight: bold;
+    color: #113f67;
+    border-color: #113f67;
+    margin-bottom: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+#pink {
+    background-color: #fae3d9;
+    font-family: 'Courier New';
+    font-weight: bold;
+    color: #113f67;
+    border-color: #113f67;
+    margin-bottom: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#backtooriginal {
+    background-color: #fae3d9;
+    font-family: 'Courier New';
+    font-weight: bold;
+    color: #113f67;
+    border-color: #113f67;
+    margin-bottom: 5px;
+    margin-top:10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#inverted {
+    background-color: #fae3d9;
+    font-family: 'Courier New';
+    font-weight: bold;
+    color: #113f67;
+    border-color: #113f67;
+    margin-bottom: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#rsw {
+    font-size: 15px;
+    font-weight: 100;
+}
+#rsh{
+    font-size:15px;
+    font-weight:100;
+}
+
+#selc {
+    background-color: #fae3d9;
+    font-family: 'Courier New';
+    font-weight: bold;
+    color: #113f67;
+    border-color: #113f67;
+    margin-bottom: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#download {
+    background-color: #fae3d9;
+    font-family: 'Courier New';
+    font-weight: bold;
+    color: #113f67;
+    border-color: #113f67;
+    margin-bottom: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#reset {
+    background-color: #fae3d9;
+    font-family: 'Courier New';
+    font-weight: bold;
+    color: #113f67;
+    border-color: #113f67;
+    margin-bottom: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#savePresentStatus {
+    background-color: #fae3d9;
+    font-family: 'Courier New';
+    font-weight: bold;
+    color: #113f67;
+    border-color: #113f67;
+    margin-bottom: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#canv {
+    border: 1px solid black;
+    width: 70%;
+    float: right;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    border: 5px solid #66bfbf;
+    border-radius: 20px;
+}
+
+#inserttext {
+    font-size: 15px;
+    font-weight: 100;
+}
+
+#sizetext {
+    font-size: 15px;
+    font-weight: 100;
+}
+
+#rszz {
+    background-color: #fae3d9;
+    font-family: 'Courier New';
+    font-weight: bold;
+    color: #113f67;
+    border-color: #113f67;
+    margin-bottom: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#delsel {
+    background-color: #fae3d9;
+    font-family: 'Courier New';
+    font-weight: bold;
+    color: #113f67;
+    border-color: #113f67;
+    margin-bottom: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#crop {
+    background-color: #fae3d9;
+    font-family: 'Courier New';
+    font-weight: bold;
+    color: #113f67;
+    border-color: #113f67;
+    margin-bottom: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#addtxt {
+    background-color: #fae3d9;
+    font-family: 'Courier New';
+    font-weight: bold;
+    color: #113f67;
+    border-color: #113f67;
+    margin-bottom: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
